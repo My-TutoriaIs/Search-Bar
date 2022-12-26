@@ -1,0 +1,32 @@
+/* Style the search box */
+.search-box {
+  width: 300px;
+  height: 40px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 0 12px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Style the search box when it has focus */
+.search-box:focus {
+  border: 1px solid #aaa;
+}
+
+/* Style the search button */
+.search-btn {
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: #ddd;
+  color: #444;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Style the search button when it has focus */
+.search-btn:focus {
+  background-color: #aaa;
+}
